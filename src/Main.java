@@ -9,12 +9,12 @@ import org.json.JSONObject;
 
 public class Main {
 
-	public final static String TOKEN = "cQUQ3sOvhyg:APA91bHHCphUhjBd7JS7WpppWPMWJintDJh3zWb6ltGpfYpACw49TWh9EjlPmgjPpUnG1kgeSWyQp_eHAXCv6Z7mzgnEhIm9kT5Nu90nd8wTQhTmY4nbHWdHYy84S4J8p5yHN91YymvTdx2JwLMWURUE_EsMxiNH4g";
-	public final static String KEY_SERVIDOR = "AIzaSyDvM0EGc7SGEk0FMas-4t3mf0LTgEOv3o4";
+	public final static String TOKEN = "INSERIR SEU TOKEN DO DISPOSITIVO AQUI";
+	public final static String KEY_SERVIDOR = "INSERIR A CHAVE DO SERVIDOR FIREBASE AQUI";
 	public final static String LINK_SEND = "https://fcm.googleapis.com/fcm/send";
 
 	public static void main(String[] args) {
-		new Main().enviarPushAplicativo("Titulo Da notificação", "Corpo da notificação", TOKEN);
+		new Main().enviarPushAplicativo("Titulo Da notificaÃ§Ã£o", "Corpo da notificaÃ§Ã£o", TOKEN);
 	}
 
 	public void enviarPushAplicativo(String titulo, String texto, String tokenUsario) {
